@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #fc8019;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1em;
+        }
+        .menu-container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .menu-section {
+            margin-bottom: 30px;
+        }
+        .menu-section h2 {
+            font-size: 1.8em;
+            color: #333;
+            border-bottom: 2px solid #fc8019;
+            padding-bottom: 5px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .menu-item h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .menu-item p {
+            margin: 0;
+            color: #777;
+        }
+        .menu-item .price {
+            font-weight: bold;
+            color: #fc8019;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        footer a {
+            color: #fc8019;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Foodie</div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="login.html">Login</a>
+            <a href="foodie.html">Main page</a>
+            
+        </nav>
+    </header>
+
+    <!-- Menu Section -->
+    <div class="menu-container">
+        <h1>Our Menu</h1>
+
+        <!-- Appetizers -->
+        <div class="menu-section">
+            <h2>Pizzas</h2>
+            <div class="menu-item">
+                <div>
+                    <h3>Margherita Pizza</h3>
+                    <p>Fresh mozzarella, tomato sauce, and basil.</p>
+                    <span class="price">200</span>
+                    <h3>Pepperoni Pizza</h3>
+                    <p>Tomato sauce,mozzarella cheese, and pepperoni</p>
+                    <span class="price">350</span>
+                    <h3>Hawaiian Pizza</h3>
+                    <p>Tomato sauce, mozzarella cheese,ham, and pineapple</p>
+                    <span class="price">300</span>
+                </div>
+            </div>
+        <div class="menu-section">
+            <h2>Burger</h2>
+            <div class="menu-item">
+                <div>
+                    <h3>Zinger Burger</h3>
+                    <span class="price">300</span>
+                    <h3>BBQ Burger</h3>
+                    <span class="price">250</span>
+                    <h3>Tower Burger</h3>
+                    <span class="price">450</span>
+                    <h3> Chicken Burger</h3>
+                    <span class="price">230</span>
+                </div>
+                    
+
+            </div>
+        </div>
+
+    
+
+        <!-- Desserts -->
+        <div class="menu-section">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <div>
+                <h3>Chocolate Lava Cake</h3>
+                <span class="price">600</span>
+                <h3>Tiramisu</h3>
+                <span class="price">600</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Beverages -->
+        <div class="menu-section">
+            <h2>Beverages</h2>
+            <div class="menu-item">
+                <div>
+                    <h3>Fresh Lemonade</h3>
+                    <span class="price">300</span>
+                    <h3>Iced Coffee</h3>
+                    <span class="price">400</span>
+                    
+                </div>
+                
+            </div>
+            
+            
+        </div>
+    
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Foodie. All rights reserved.</p>
+    </footer>
+</body>
+</html>

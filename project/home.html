@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #fc8019;
+            padding: 15px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1em;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1500x400') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .hero p {
+            margin: 15px 0;
+            font-size: 1.2em;
+        }
+        .food-categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .food-card {
+            width: 300px;
+            background-color: #f8f8f8;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .food-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .food-card h3 {
+            margin: 10px;
+            font-size: 1.2em;
+        }
+        .food-card p {
+            margin: 10px;
+            color: #555;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #fc8019;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Foodie</div>
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="foodie.html">Main Page</a>
+            <a href="menu.html">Menu</a>
+            
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Discover the Best Food in Your City</h1>
+        <p>Order food from your favorite restaurants with just a click!</p>
+        <input type="text" placeholder="Enter your location" style="padding: 10px; width: 300px;">
+        <button style="padding: 10px 20px; background-color: #fc8019; color: white; border: none; cursor: pointer;">Search</button>
+    </section>
+
+    <!-- Food Categories -->
+    <section class="food-categories">
+        <div class="food-card">
+            <img src="https://media.istockphoto.com/id/1442417585/photo/person-getting-a-piece-of-cheesy-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=k60TjxKIOIxJpd4F4yLMVjsniB4W1BpEV4Mi_nb4uJU=" alt="Pizza">
+            <h3>Pizza</h3>
+            <p>Cheesy, delicious, and freshly baked.</p>
+        </div>
+        <div class="food-card">
+            <img src="https://static.vecteezy.com/system/resources/previews/023/809/530/non_2x/a-flying-burger-with-all-the-layers-ai-generative-free-photo.jpg" alt="Burgers">
+            <h3>Burgers</h3>
+            <p>Juicy and packed with flavors.</p>
+        </div>
+        <div class="food-card">
+            <img src="https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg" alt="Pasta">
+            <h3>Pasta</h3>
+            <p>Rich and creamy Italian pasta.</p>
+        </div>
+        <div class="food-card">
+            <img src="https://prettysweetblog.com/wp-content/uploads/2021/01/No-bake-chocolate-hazelnut-dessert-in-a-glass-1-2.jpg" alt="Desserts">
+            <h3>Desserts</h3>
+            <p>Sweet treats to end your meal.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Foodie. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
